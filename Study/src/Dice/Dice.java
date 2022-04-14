@@ -1,4 +1,4 @@
-// Random Class
+package Dice;// Random Class
 import java.util.Random;
 
 public class Dice {
