@@ -1,4 +1,4 @@
-package Dice;// Random Class
+package Dice; // Random Class
 import java.util.Random;
 
 public class Dice {
@@ -31,8 +31,8 @@ public class Dice {
         int rollcount = 0;
 
         while (true) {
-            dice1.setValue(dice1.roll());
-            dice2.setValue(dice2.roll());
+            dice1.roll();
+            dice2.roll();
             System.out.println("주사위1 나온 수 : " + dice1.getValue() + ", 주사위2 나온 수 : " + dice2.getValue());
             rollcount++;
             if (dice1.getValue() + dice2.getValue() == 2) {
