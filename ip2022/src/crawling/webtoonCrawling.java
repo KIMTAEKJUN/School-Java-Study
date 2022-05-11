@@ -13,10 +13,10 @@ import java.net.URL;
 
 public class webtoonCrawling {
     public static void main(String[] args) {
-        String url = "https://comic.naver.com/webtoon/detail?titleId=747269&no=102&weekday=wed";
+        String URL = "https://comic.naver.com/webtoon/detail?titleId=747269&no=102&weekday=wed";
 
         try {
-            Document doc = Jsoup.connect(url).get();
+            Document doc = Jsoup.connect(URL).get();
             // System.out.println(doc);
 
             Elements img = doc.select("#comic_view_area > div.wt_viewer > img"); // ArrayList<Elements>
