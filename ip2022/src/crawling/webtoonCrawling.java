@@ -10,10 +10,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Scanner;
 
 public class webtoonCrawling {
     public static void main(String[] args) {
-        String URL = "https://comic.naver.com/webtoon/detail?titleId=747269&no=102&weekday=wed";
+        Scanner scan = new Scanner(System.in);
+
+        int webtoonNum;
+
+        System.out.println("전지적 독자 시점 웹툰의 크롤링을 원하는 회자를 넣으세요 => ");
+        webtoonNum = scan.nextInt();
+
+        String URL = "https://comic.naver.com/webtoon/detail?titleId=747269&no="+ (webtoonNum+1) +"&weekday=wed";
 
         try {
             Document doc = Jsoup.connect(URL).get();
@@ -31,7 +39,7 @@ public class webtoonCrawling {
                 conn.setRequestProperty("Referer", src);
                 BufferedImage bimg = ImageIO.read(conn.getInputStream());
 
-                FileOutputStream out = new FileOutputStream("/Users/kimtaekjun/GitHub/School_Java_Study/ip2022/src/crawling/data/IMAGE101_" + (i + 1) + ".jpg");
+                FileOutputStream out = new FileOutputStream("/Users/kimtaekjun/GitHub/School_Java_Study/ip2022/src/crawling/data/IMAGE" + (webtoonNum+1) + ".jpg");
                 ImageIO.write(bimg, "jpg", out);
             }
             System.out.println(img.size() + "개 크롤링 완료 ! !");
