@@ -1,3 +1,5 @@
+package study;
+
 public class SystemTimeExample {
     public static void main(String[] args) {
         // 시그마공식 - n*(n+1)/2

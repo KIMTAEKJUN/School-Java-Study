@@ -1,3 +1,5 @@
+package study;
+
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;

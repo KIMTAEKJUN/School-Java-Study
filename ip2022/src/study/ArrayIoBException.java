@@ -1,3 +1,5 @@
+package study;
+
 public class ArrayIoBException {
     public static void main(String[] args) {
         try {
