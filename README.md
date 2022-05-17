@@ -1,4 +1,4 @@
-# School_Java_Study
+# School-Java-Study
 
 <br/>
 
