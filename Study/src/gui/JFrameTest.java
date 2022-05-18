@@ -2,7 +2,7 @@ package gui;
 
 import javax.swing.*;
 
-//public class JFrameTest extends JFrame {
+// public class JFrameTest extends JFrame {
 //    public static void main(String[] args) {
 //        JFrameTest f = new JFrameTest();
 //        f.setTitle("JFrameTest");
@@ -10,7 +10,7 @@ import javax.swing.*;
 //        f.setVisible(true);
 //        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //    }
-//}
+// }
 
 public class JFrameTest extends JFrame {
     public JFrameTest() {
