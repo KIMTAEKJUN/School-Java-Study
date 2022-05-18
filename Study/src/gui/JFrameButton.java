@@ -19,6 +19,6 @@ public class JFrameButton extends JFrame {
     }
 
     public static void main(String[] args) {
-        JFrameButton f = new JFrameButton();
+        new JFrameButton();
     }
 }

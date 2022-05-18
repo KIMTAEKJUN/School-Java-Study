@@ -21,6 +21,6 @@ public class JFrameTest extends JFrame {
     }
 
     public static void main(String[] args) {
-        JFrameTest f = new JFrameTest();
+        new JFrameTest();
     }
 }
