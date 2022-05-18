@@ -24,7 +24,7 @@ public class JFrameGrid extends JFrame {
     }
 }
 
-//    public class Main extends JFrame {
+// public class Main extends JFrame {
 //
 //    public JPanel panel;
 //    public JTextField tField;
@@ -68,4 +68,4 @@ public class JFrameGrid extends JFrame {
 //    public static void main(String args[]) {
 //        Main s = new Main();
 //    }
-//}
+// }
