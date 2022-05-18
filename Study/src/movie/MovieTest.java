@@ -1,6 +1,4 @@
-package Movie;
-
-import java.util.Scanner;
+package movie;
 
 public class MovieTest {
     public static void main(String[] args) {
