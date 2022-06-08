@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/minesweeper/Minesweeper.iml" filepath="$PROJECT_DIR$/minesweeper/Minesweeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study/Study.iml" filepath="$PROJECT_DIR$/Study/Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/ip2022/ip2022.iml" filepath="$PROJECT_DIR$/ip2022/ip2022.iml" />
     </modules>
